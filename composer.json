@@ -1,0 +1,19 @@
+{
+    "name": "vagrant/bank-ocr",
+    "license": "MIT",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "8.5.2",
+        "sempro/phpunit-pretty-print": "1.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sportradar\\BankOCR\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sportradar\\BankOCR\\Tests\\": "tests/"
+        }
+    }
+}
